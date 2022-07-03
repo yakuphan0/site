@@ -409,8 +409,11 @@ float: left;
     height: 10%;
     display: inline-block;
     background-color: transparent;
-    color: #fff;
+    color:white;
     font-size: 15px;
+ }
+ .form .formici::placeholder{
+    color:white;
  }
 
 .takim{
