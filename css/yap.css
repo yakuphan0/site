@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    float: left;
+    background-color:white;
+    height: 85px;
+    position: relative;
+    margin: auto;
+}
+
+.contaneric{
+    float: left;
+    position: relative;
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar ul{
+    float: right;
+    margin-right: 80px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 30px;
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    transition: .2s;
+    font-weight: 700;
+    
+}
+
+.navbar ul li a:hover{
+color: #3498DB;
+}
+
+.container  .center{
+    position:relative;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: auto;
+    height: 100px;
+    
+}
+
+
+
+.center h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    position: absolute; 
+    margin-top: 60px; 
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40px;
+}
+.resim{
+   /* height: 553px;
+    width: 1347px; */
+float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+.yazi{
+    z-index: 1;
+    position: absolute;
+    float: left;
+    width: auto;
+    height: auto;
+    margin-top: 150px;
+}
+
+.yazi ul li{
+    float: left;
+    font-size: 20px;
+    color:#EAEAEA;
+    position: relative;
+    list-style: none;
+    display:block;
+    margin: 30px 50px;
+    margin-bottom: auto;
+    
+}
+
+.sponsor{
+    position: relative;
+    background: #EEF0F1;
+    list-style: none;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 50px 0;
+    width: 1200px;
+}
+
+.sponsor .sponsorresmi{
+ 
+    max-width: 150px;
+    margin: 0px 40px;
+}
+
+.sponsor ul li{
+    list-style: none;
+    display: inline-block;
+    width: auto;
+    padding-bottom: 15px;
+}
+ 
+
+
+.sponsoralti{
+    float: left;
+    width: 100%;
+}
+
+
+.sponsoralti h1{
+    color: #454545;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sponsoralti p{
+    color: #858585;
+    text-align: center;
+    margin: 0 0 15px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cizgiyildiz{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #34B1C4;
+}
+
+.ortalar{
+    position: relative;
+    margin-left: 50px;  
+}
+
+.ortalar ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    margin-left: 15px;
+    color: #454545;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ortalar ul li h4{
+    color: #454545;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0 10px;
+}
+
+.ortalar ul li p{
+    color: #858585;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 15px;
+    padding: 0 10px;
+    line-height: 24px;
+}
+
+.istatistikustu{
+    position: relative;
+}
+
+.istatistikustu h3{
+    color: #454545;
+    float: right;
+    margin-top: 110px;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 175px;
+    margin-bottom: 20px;
+}
+
+.istatistikustu .istresim{
+    float: left;
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.istatistikustu p{
+    float: right;
+    color: #858585;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin: 0 0 10px;
+    margin-right: 145px;
+    line-height: 24px;
+}
+
+.istüstüliste{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-left: 41px;
+    color: #858585;
+    line-height: 35px;
+}
+
+.istüstüliste ul li{
+    color: #858585;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    list-style: none;
+    display: inline-block;
+    list-style-image: none;
+
+}
+
+.ilkbuton{
+    padding: 15px 30px;
+    background-color: #34B1C4;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: center;
+    margin-right: 100px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 41px;
+    margin-top: 20px;
+
+}
+
+.parallax{
+    margin-top: 100px;
+    position: relative;
+    font-weight: 700;
+    margin-bottom: 100px;
+    
+
+}
+
+.parallaxalti{
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.parallaxalti h1{
+    font-size: 36px;
+    margin: 0 0 15px 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #454545;
+}
+
+.parallaxalti p{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #858585;
+    clear: both;
+}
+
+.resimlibolge{
+    position: relative;
+    list-style: none;
+    width: 33,3%;
+    margin-top: 50px;
+    height: 100px;
+}
+
+.resimlibolge .altiresim{
+        max-width: 350px;
+        margin-bottom: 15px;
+        float: left;
+        margin: 15px;
+     }
+    
+
+
+ .resimlibolge ul li{ 
+    list-style: none;
+    width: 100%;
+    position: relative;
+ }
+ 
+ .gozluklukadin{
+    position: absolute;
+    width: 100%;
+    margin-top: 500px;
+    max-height: 550px;
+    display: block;
+    padding-top: -10px;
+    background-color: #3498DB;
+    margin-right: -15px;
+    clear: both;
+ }
+
+ .gozluklukadin h3{
+    color: rgb(248, 246, 246);
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    float: right;
+    position: relative;
+    margin-right: 175px;
+    margin-top: 100px;
+    text-align: left;
+    font-size: 34px;
+ }
+
+ .gozluklukadin p{
+    color: rgb(247, 247, 247);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    float: right;
+    font-family: 'Open Sans', sans-serif;;
+    margin-top: 30px;
+    margin-right: 175px;
+    text-align: left;
+    position: relative;
+ }
+
+ .gozluklukadin .kadinresmi{
+    float: left;
+    position: relative;
+    padding: 0;
+    width: 500px;
+    margin-bottom: 750px;
+    margin: 0 0 100px;
+ }
+
+ .form{
+    padding: 25px 0 25px;
+    padding-left: 0px;
+    width: 50%;
+    position: relative;
+    float: right;
+    padding-right: 75px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    min-height: 5px;
+    height: 500px;
+    padding-left: 2%;
+    border-radius: 5px 5px 5px 5px;
+    text-rendering: auto;
+    text-align: start;
+    color: white;
+ }
+
+ .form .formici{
+    position: relative;
+    border: 1px solid #EAEAEA;
+    margin: 10px;
+    width: 45%;
+    height: 10%;
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+ }
+
+.takim{
+    position: relative;
+    float: left;
+    margin-top: 700px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.takim h3{
+    color: #454545;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 36px;
+    margin: 0 0 15px 0;
+    text-align: center;
+    display: block;
+}
+ 
+.takim p{
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #858585;
+    margin-bottom: 15px;
+    margin: 0 0 10px;
+    text-align: center;
+    display: block;
+}
+
+.takimresmi{
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    background-color: #EEF0F1;
+}
+
+.takimismi{
+    position: relative;
+    text-align: center;
+    background-color: #eef0f1;
+    border-bottom: 3px solid #e0e0e0;
+    width: 33%;
+    display: inline-block;
+}
+ 
+.takimismi h3{
+    position: relative;
+    display: inline-block;
+    margin: 20px 0 1px 0!important;
+    color: #454545;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.takimismi p{
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #858585;
+    display: block;
+    margin: 0 0 10px;
+}
+
+ 
